@@ -1,22 +1,22 @@
 ---
-pageLayout: home
-externalLinkIcon: false
+home: true
 config:
   -
-    type: hero
-    full: true
-    background: tint-plate
+    type: doc-hero
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: A simple, feature-rich, document & blog
+      name: Southwest University
+      text: Ma's Team
+      tagline: Decoding silkworm life, driving gene innovation, and leading the future of the Silk Road.
+      image: /plume.png
       actions:
         -
           theme: brand
-          text: Blog
-          link: /en/blog/
+          text: Recent Updates →
+          link: /blog/
         -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: Contact Us →
+          link: /contact/
+  -
+    type: blog
 ---

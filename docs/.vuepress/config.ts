@@ -24,15 +24,15 @@ export default defineUserConfig({
       description: '马三垣课题组的主页，包含研究方向、代表性成果、团队成员等信息。',
     },
     '/en/': {
-      title: 'Ma Sanyuan Lab',
+      title: 'Sanyuan Ma Lab',
       lang: 'en-US',
-      description: 'Homepage of Ma Sanyuan Lab, including research directions, publications , team members, etc.',
+      description: 'Homepage of Sanyuan Ma Lab, including research directions, publications , team members, etc.',
     },
   },
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/malab-logo.png' }],
   ],
 
   bundler: viteBundler(),

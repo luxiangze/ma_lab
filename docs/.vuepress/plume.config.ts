@@ -17,7 +17,7 @@ import { enNavbar, zhNavbar } from './navbar'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: '/malab-logo.png',
 
   appearance: true,  // 配置 深色模式
 
@@ -57,9 +57,9 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
       profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
+        avatar: '/malab-logo.png',
         name: '马三垣课题组',
-        description: '马三垣课题组的主页，包含研究方向、代表性成果、团队成员等信息。',
+        description: '马三垣课题组的主页',
         circle: true,
         location: '重庆，中国',
         organization: '西南大学',
@@ -89,9 +89,9 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
       profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
+        avatar: '/malab-logo.png',
         name: 'Ma lab',
-        description: 'Sanyuan Ma lab homepage, including research directions, representative achievements, team members, etc.',
+        description: 'Homepage of Sanyuan Ma lab',
         circle: true,
         location: 'Chongqing, China',
         organization: 'Southwest University',

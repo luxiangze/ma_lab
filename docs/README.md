@@ -1,22 +1,22 @@
 ---
-pageLayout: home
-externalLinkIcon: false
+home: true
 config:
   -
-    type: hero
-    full: true
-    background: tint-plate
+    type: doc-hero
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: 西南大学
+      text: 马三垣课题组
+      tagline: 解码家蚕生命密码，推动基因创新，引领丝路未来。
+      image: /malab-logo.png
       actions:
         -
           theme: brand
-          text: 博客
+          text: 研究方向 →
           link: /blog/
         -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: 联系我们 →
+          link: /contact/
+  -
+    type: blog
 ---
