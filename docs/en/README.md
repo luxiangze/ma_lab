@@ -7,7 +7,7 @@ config:
       name: Southwest University
       text: Ma's Team
       tagline: Decoding silkworm life, driving gene innovation, and leading the future of the Silk Road.
-      image: /plume.png
+      image: /malab-logo.png
       actions:
         -
           theme: brand
