@@ -12,6 +12,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { umamiAnalyticsPlugin } from '@vuepress/plugin-umami-analytics'
 
 export default defineUserConfig({
   base: '/',
@@ -36,6 +37,14 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
   shouldPrefetch: true, // 站点较大，页面数量较多时，不建议启用
+
+  plugins: [
+    umamiAnalyticsPlugin({
+      // 站点分析配置
+      id: '9125259d-8798-4845-876e-5dfbf3428602', // 替换为您的 Umami 网站 ID
+      link: 'https://cloud.umami.is/script.js', // 替换为您的 Umami 脚本地址
+    }),
+  ],
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
